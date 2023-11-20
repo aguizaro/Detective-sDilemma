@@ -1,0 +1,58 @@
+{
+	"name": "ComputerScreen",
+	"plugin-id": "Sprite",
+	"sid": 189690869444238,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 600,
+						"height": 400,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9405690,
+						"collisionPoly": {
+							"points": [
+								0.013945312499999994,
+								0.0031250000000000167,
+								0.5045703125000001,
+								0,
+								0.9867708333333335,
+								0.0014453124999999586,
+								0.992890625000001,
+								0.4911132812499999,
+								0.990924479166667,
+								0.9892187500000001,
+								0.4948567708333334,
+								0.9893945312499998,
+								0.006796874999999969,
+								0.9769140625000002,
+								0.008059895833333336,
+								0.5083203125000002
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 155040298178826,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

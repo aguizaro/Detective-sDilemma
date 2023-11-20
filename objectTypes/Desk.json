@@ -1,0 +1,54 @@
+{
+	"name": "Desk",
+	"plugin-id": "Sprite",
+	"sid": 826007556410482,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 5500,
+						"height": 1549,
+						"originX": 0.5,
+						"originY": -0.2911555842479019,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 993005,
+						"collisionPoly": {
+							"points": [
+								0.5265454545454545,
+								0.28728211749515814,
+								0.5,
+								0.28728211749515814,
+								0.47345454545454546,
+								0.28728211749515814,
+								1,
+								1,
+								0.5,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 281463794952755,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

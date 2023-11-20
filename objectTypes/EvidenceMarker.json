@@ -1,0 +1,58 @@
+{
+	"name": "EvidenceMarker",
+	"plugin-id": "Sprite",
+	"sid": 136145114951033,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 764,
+						"height": 538,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2422385,
+						"collisionPoly": {
+							"points": [
+								0.2513089005235602,
+								0.35687732342007433,
+								0.5,
+								0,
+								0.893979057591623,
+								0.15055762081784388,
+								0.9410994764397905,
+								0.5,
+								0.9895287958115183,
+								0.9851301115241635,
+								0.5,
+								0.9888475836431226,
+								0.017015706806282723,
+								0.9758364312267658,
+								0.22251308900523561,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 474075783205562,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

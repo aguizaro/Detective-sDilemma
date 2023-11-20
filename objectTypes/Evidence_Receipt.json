@@ -1,0 +1,50 @@
+{
+	"name": "Evidence_Receipt",
+	"plugin-id": "Sprite",
+	"sid": 973208207929479,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 552,
+						"height": 534,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4412489,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.36818851251840945,
+								0,
+								0.36818851251840945,
+								0.373134328358209,
+								0,
+								0.373134328358209
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 862162996677782,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

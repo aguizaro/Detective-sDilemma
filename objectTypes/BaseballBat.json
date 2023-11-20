@@ -1,0 +1,99 @@
+{
+	"name": "BaseballBat",
+	"plugin-id": "Sprite",
+	"sid": 793917917535146,
+	"isGlobal": true,
+	"instanceVariables": [
+		{
+			"name": "collected",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 172625347118173
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 680,
+						"height": 678,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7207727,
+						"collisionPoly": {
+							"points": [
+								0.09078010110294102,
+								0.6686082688053087,
+								0.8662683823529418,
+								0.2098370667404129,
+								0.9617359834558825,
+								0.21987347898230156,
+								0.9962833180147057,
+								0.3117106839970495,
+								0.9651367187500002,
+								0.37445842551622377,
+								0.12435661764705883,
+								0.7501728429203524,
+								0.048397288602941194,
+								0.8243685471976384,
+								0,
+								0.6723013458702064
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 680,
+						"height": 678,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 14920,
+						"collisionPoly": {
+							"points": [
+								0.46538373161764707,
+								0.4671022308259586,
+								0.4951631433823529,
+								0.42420261799410014,
+								0.9384306066176473,
+								0.19201120022123921,
+								1,
+								0.35217321165191706,
+								0.5727826286764706,
+								0.5384748340707961,
+								0.5061925551470586,
+								0.5691832595870203,
+								0.04719094669117648,
+								0.8143148506637173,
+								0.00037913602941174476,
+								0.7060172382005897
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 661999141160080,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

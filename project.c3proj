@@ -1,0 +1,406 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 35800,
+	"name": "Graphical Game Slice",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "0e947u30dvw",
+	"objectTypes": {
+		"items": [
+			"Wall",
+			"Door",
+			"Desk",
+			"Coffee",
+			"EvideneBoard",
+			"CurrentCase",
+			"Lamp",
+			"Files",
+			"Mouse",
+			"Audio",
+			"Document",
+			"DocumentText",
+			"JewelerLayout",
+			"StoreOwner",
+			"Coin",
+			"Safe",
+			"BaseballBat",
+			"ComputerMonitor",
+			"OwnerStatementBox",
+			"OwnerStatement",
+			"ComputerScreen",
+			"ReturnButton",
+			"Evidence_Bat",
+			"EvidenceText",
+			"GoldExchangeLayout",
+			"StoreOwner2",
+			"GoldBar",
+			"OwnerStatementBox2",
+			"OwnerStatement2",
+			"Evidence_Receipt",
+			"ComputerMonitor2",
+			"ComputerScreen2",
+			"ShoePrint",
+			"EvidenceMarker",
+			"Evidence_ShoePrint",
+			"TiledBackground",
+			"Picture",
+			"Credits"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Layout 1",
+			"Layout 2",
+			"Layout 3",
+			"Layout 4"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Event sheet 1",
+			"Event sheet 2",
+			"Event sheet 3",
+			"Event sheet 4"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "paper_flip.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 753949657514253,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "coffee_slurp1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 116091765134752,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "coffee_slurp2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 187533735202129,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "light_flip_off.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 572954351949253,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "light_flip_on.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 306410303916089,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "door_open.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 660744780295775,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "coin.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 547182392742883,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "baseballbat.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 756805104905197,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "keyboard_press.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 696094693242425,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "grunt.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 678785917718862,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "grunt2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 477994466680680,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "next_level.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 291646815862390,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "goldBar.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 653687315457273,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "old_grunt.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 676393407374968,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "old_grunt2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 175584688537419,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "plastic_marker.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 761309689611899,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "cold-mind-enigma.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 676191023501942,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 174716156482960,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 140725177605669,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 157701633005163,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 145134233181035,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 738481648565656,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 266747804748237,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 649115937846911,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 854,
+	"viewportHeight": 480,
+	"firstLayout": null
+}

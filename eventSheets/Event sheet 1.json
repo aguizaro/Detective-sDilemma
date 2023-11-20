@@ -1,0 +1,830 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-loader-layout-complete",
+					"objectClass": "System",
+					"sid": 243887567256533
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 627415298042608,
+					"parameters": {
+						"audio-file": "cold-mind-enigma",
+						"loop": "looping",
+						"volume": "-12",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 409330542772840
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ReturnButton",
+					"sid": 393615083354279,
+					"parameters": {
+						"instance-variable": "L1Complete"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Evidence_Bat",
+					"sid": 488744029739437,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Files",
+					"sid": 286450097446252,
+					"parameters": {
+						"instance-variable": "CurrentText",
+						"value": "\"NOTES:\n\nTHE CAMERA FOOTAGE AT THE JEWELRY STORE WAS DELETED. THE SAFE WAS BROKEN INTO, BUT NOTHING WAS TAKEN FROM INSIDE. A WOODEN BASEBALL BAT WAS USED TO SMASH THE DISPLAY GLASS AND WAS LEFT BEHIND AT THE CRIME SCENE. THE ONLY ITEM TAKEN FROM THE CRIME SCENE WAS A VALUABLE GOLDEN NECLACE.\n\nTHIS BAT. IT LOOKS JUS LIKE THE LITTLE LEAGUE BAT I'VE KEPT ALL THESE YEARS.\n\""
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "CurrentCase",
+					"sid": 879581184105300,
+					"parameters": {
+						"instance-variable": "CurrentText",
+						"value": "\"CURRENT CASE:\n\nTHERE WAS A BREAK IN THAT TOOK PLACE A FEW HOURS AGO AT THE GOLD EXCHANGE STOREFRONT DOWNTOWN. WE DON'T HAVE MUCH INFORMATION YET.\n\nHEAD DOWN THERE AND SEE WHAT YOU CAN FIND. \""
+					}
+				}
+			],
+			"sid": 206644770697374
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ReturnButton",
+					"sid": 217864375869978,
+					"parameters": {
+						"instance-variable": "L2Complete"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Evidence_Receipt",
+					"sid": 162588896702998,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Evidence_ShoePrint",
+					"sid": 902333593180995,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "CurrentCase",
+					"sid": 674738402677761,
+					"parameters": {
+						"instance-variable": "CurrentText",
+						"value": "\"CURRENT CASE:\n\nIT IS LIKELY THAT THE JEWELRY STORE AND GOLD EXCHANGE STOREFRONT WERE TARGETED BY THE SAME PERSON. AT BOTH THESE PLACES, THE CRIMINAL HAD THE OPPORTUNITY TO TAKE MONEY AND VALUABLES, BUT ONLY TOOK A GOLDEN NECKLACE AND A GOLDEN CUFF BRACELET. \n\nWHY THOSE ITEMS IN PARTICULAR?\""
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Files",
+					"sid": 218512576393177,
+					"parameters": {
+						"instance-variable": "CurrentText",
+						"value": "\"NOTES:\nTHERE WAS A SHOE PRINT FOUND AT THE GOLD EXCHANGE PLACE. THIS PATTERN ON THE SOUL IS ONLY FOUND ON STATE ISSUED BOOTS FOR OFFICERS.\n\nACCORDING TO THE RECEIPT, THE GOLD BRACELET THAT WAS STOLEN WAS EXHANGED FOR GOLD BY A MRS. FRANKLIN EXACTLY 4 WEEKS AGO TODAY.\n\nMY WIFE, SAM FRANKLIN, PASSED ALMOST A MONTH AGO. I MISS HER SO MUCH. \n\""
+					}
+				}
+			],
+			"sid": 295476963141891
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 375704166063947,
+					"parameters": {
+						"object": "Files"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Files",
+					"sid": 320462921113301,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 130620629389198
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 165515686863840,
+					"parameters": {
+						"object": "Lamp"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Lamp",
+					"sid": 260183754377055,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 953633542155820
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 662810745925236,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Door",
+					"sid": 335398178228721,
+					"parameters": {
+						"animation": "\"DoorClosed\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Door",
+					"sid": 103305493211024,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 652480812245738
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 518588712176483,
+					"parameters": {
+						"object": "CurrentCase"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "CurrentCase",
+					"sid": 999924346696995,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 744080047746677
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 783026547191129,
+					"parameters": {
+						"object": "Coffee"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Coffee",
+					"sid": 399498812211462,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 641036471102816
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 147037438539083,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Door"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "CurrentCase",
+					"sid": 642051852818488,
+					"parameters": {
+						"instance-variable": "hasBeenRead"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Files",
+					"sid": 332735843335056,
+					"parameters": {
+						"instance-variable": "read"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 960258726095138,
+					"parameters": {
+						"audio-file": "door_open",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Door",
+					"sid": 608156092905406,
+					"parameters": {
+						"animation": "\"DoorOpen\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 669500179668827
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 176696386421203,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "CurrentCase"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "CurrentCase",
+					"sid": 360493631415612
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 893558568885080,
+					"parameters": {
+						"audio-file": "paper_flip",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "CurrentCase",
+					"sid": 435306856903249,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Document",
+					"sid": 862111586635262,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DocumentText",
+					"sid": 611974118480920,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "CurrentCase",
+					"sid": 542361419783312,
+					"parameters": {
+						"instance-variable": "hasBeenRead",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "DocumentText",
+					"sid": 560535428797392,
+					"parameters": {
+						"text": "CurrentCase.CurrentText"
+					}
+				}
+			],
+			"sid": 529834837673024
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 925170713275183,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Files"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "Files",
+					"sid": 560124496186240
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 154213130229730,
+					"parameters": {
+						"audio-file": "paper_flip",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Files",
+					"sid": 177969895418392,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Document",
+					"sid": 426359058009276,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DocumentText",
+					"sid": 463355642408964,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "DocumentText",
+					"sid": 575048154370587,
+					"parameters": {
+						"text": "Files.CurrentText"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Files",
+					"sid": 820579779668733,
+					"parameters": {
+						"instance-variable": "read",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 580228109572829
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 245472508274869,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "DocumentText"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "DocumentText",
+					"sid": 955729784130399
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Document",
+					"sid": 816931402177868,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "DocumentText",
+					"sid": 507393727328251,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "CurrentCase",
+					"sid": 639986955209156,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 219942756999002,
+					"parameters": {
+						"audio-file": "paper_flip",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Files",
+					"sid": 286979226936130,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 322596569649310
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 845983952317693,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Lamp"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Lamp",
+					"sid": 989916335455215,
+					"parameters": {
+						"animation": "\"lampOn\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "toggle-boolean-instvar",
+					"objectClass": "Lamp",
+					"sid": 957277431941345,
+					"parameters": {
+						"instance-variable": "isOn"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 771511095302830,
+					"parameters": {
+						"audio-file": "light_flip_off",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 978656175748812
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 387806562093507,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Coffee"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "Coffee",
+					"sid": 522094072817296
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 941912868348767,
+					"parameters": {
+						"audio-file": "coffee_slurp1",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 241714263086879,
+					"parameters": {
+						"audio-file": "coffee_slurp1",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"drink_coffee\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Coffee",
+					"sid": 881588526845747,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 102194486668093
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 441409384619172,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Lamp"
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Lamp",
+					"sid": 924697612076327,
+					"parameters": {
+						"animation": "\"lampOff\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "toggle-boolean-instvar",
+					"objectClass": "Lamp",
+					"sid": 877652804684161,
+					"parameters": {
+						"instance-variable": "isOn"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 535083046999489,
+					"parameters": {
+						"audio-file": "light_flip_on",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 705958734564490
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-ended",
+					"objectClass": "Audio",
+					"sid": 531763835659140,
+					"parameters": {
+						"tag": "\"drink_coffee\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Coffee",
+					"sid": 149276518572978,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 606789287522667
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 317872131556672
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Lamp",
+					"sid": 174749217901442,
+					"parameters": {
+						"instance-variable": "isOn"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Lamp",
+					"sid": 468488957795707,
+					"parameters": {
+						"animation": "\"lampOn\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 279340997958449
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 673556054038510
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Lamp",
+					"sid": 528714024450327,
+					"parameters": {
+						"animation": "\"lampOff\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 752995934190101
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Door",
+					"sid": 487181668426230,
+					"parameters": {
+						"animation": "\"DoorOpen\""
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "Evidence_ShoePrint",
+					"sid": 561162342673733
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 345723255690090,
+					"parameters": {
+						"layout": "Layout 4"
+					}
+				}
+			],
+			"sid": 279638899483295
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Door",
+					"sid": 720968244818472,
+					"parameters": {
+						"animation": "\"DoorOpen\""
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "Evidence_Bat",
+					"sid": 715196749949259
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 514261388892595,
+					"parameters": {
+						"layout": "Layout 3"
+					}
+				}
+			],
+			"sid": 883955568014625
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Door",
+					"sid": 849609344387381,
+					"parameters": {
+						"animation": "\"DoorOpen\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 234628899139739,
+					"parameters": {
+						"layout": "Layout 2"
+					}
+				}
+			],
+			"sid": 132972412843513
+		}
+	],
+	"sid": 662424563394261
+}

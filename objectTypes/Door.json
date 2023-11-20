@@ -1,0 +1,136 @@
+{
+	"name": "Door",
+	"plugin-id": "Sprite",
+	"sid": 774670191478951,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1913,
+						"height": 2691,
+						"originX": -0.20386826973340302,
+						"originY": 0.46859903381642515,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5845687,
+						"collisionPoly": {
+							"points": [
+								0.8625196027182428,
+								0.43514260497956087,
+								0.8558710141139562,
+								0.6058505202526939,
+								0.6078639571353881,
+								0.6030750650315869,
+								0.6063120752744373,
+								0.43527034559643263
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 1913,
+						"height": 2691,
+						"originX": -0.20386826973340302,
+						"originY": 0.46859903381642515,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4499667,
+						"collisionPoly": {
+							"points": [
+								0.8751796915838983,
+								0.4210446859903378,
+								0.8683024046001039,
+								0.5950622445187661,
+								0.6021138264505994,
+								0.592077759197325,
+								0.6123399111343429,
+								0.42466787439613507
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 705082350516489,
+				"name": "DoorClosed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 1913,
+						"height": 2691,
+						"originX": -0.20386826973340302,
+						"originY": 0.46859903381642515,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8228772,
+						"collisionPoly": {
+							"points": [
+								0.8751796915838983,
+								0.4210446859903378,
+								0.8683024046001039,
+								0.5950622445187661,
+								0.6021138264505994,
+								0.592077759197325,
+								0.6123399111343429,
+								0.42466787439613507
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 1913,
+						"height": 2691,
+						"originX": -0.20386826973340302,
+						"originY": 0.46859903381642515,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4571914,
+						"collisionPoly": {
+							"points": [
+								0.8751796915838983,
+								0.4210446859903378,
+								0.8683024046001039,
+								0.5950622445187661,
+								0.6021138264505994,
+								0.592077759197325,
+								0.6123399111343429,
+								0.42466787439613507
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 178990810205985,
+				"name": "DoorOpen",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

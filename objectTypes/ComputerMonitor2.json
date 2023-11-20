@@ -1,0 +1,75 @@
+{
+	"name": "ComputerMonitor2",
+	"plugin-id": "Sprite",
+	"sid": 613016081830846,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1267,
+						"height": 1168,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3320577,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.19731649565903708,
+								0,
+								0.19731649565903708,
+								0.21404109589041095,
+								0,
+								0.21404109589041095
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 1267,
+						"height": 1168,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 845991,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.19731649565903708,
+								0,
+								0.19731649565903708,
+								0.21404109589041095,
+								0,
+								0.21404109589041095
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 477400337453714,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

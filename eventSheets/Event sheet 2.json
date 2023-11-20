@@ -1,0 +1,604 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 592138136613522,
+					"parameters": {
+						"object": "StoreOwner"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "StoreOwner",
+					"sid": 819357060503605,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 764843922100863
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 254929220854784,
+					"parameters": {
+						"object": "Coin"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Coin",
+					"sid": 330623416733241,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 821698800456637
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 500073203731712,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Coin"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Coin",
+					"sid": 708417828981320
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 626546397726614,
+					"parameters": {
+						"audio-file": "coin",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 585209418730303
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 672417329817489,
+					"parameters": {
+						"object": "BaseballBat"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "BaseballBat",
+					"sid": 749982050338536,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 345092312615687
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 617646282228165,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "BaseballBat"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "BaseballBat",
+					"sid": 516853635448940
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "BaseballBat",
+					"sid": 793843403651217,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 851923645525113,
+					"parameters": {
+						"audio-file": "baseballbat",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "BaseballBat",
+					"sid": 347978733166054,
+					"parameters": {
+						"instance-variable": "collected",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Evidence_Bat",
+					"sid": 473488850258761,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 343328439216258
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 334397707088213,
+					"parameters": {
+						"object": "ComputerMonitor"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "ComputerMonitor",
+					"sid": 264366506848799,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 656295764890657
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 642849825486068,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "StoreOwner"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "ComputerScreen",
+					"sid": 695622442617528,
+					"isInverted": true
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "OwnerStatement",
+					"sid": 249460774183964,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatementBox",
+					"sid": 563742411005753,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatement",
+					"sid": 336297303312184,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OwnerStatementBox",
+					"sid": 697606213328098,
+					"parameters": {
+						"instance-variable": "read",
+						"value": "true"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 812842315336464,
+					"parameters": {
+						"audio-file": "grunt",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 998992156512553
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 240276751295446,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OwnerStatementBox"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "OwnerStatementBox",
+					"sid": 918736606209744
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatement",
+					"sid": 372211097153100,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatementBox",
+					"sid": 641787195816892,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 165035211941820,
+					"parameters": {
+						"audio-file": "grunt2",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 975724441856296
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 849770281085880,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OwnerStatement"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "OwnerStatement",
+					"sid": 836948049670427
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatement",
+					"sid": 311134689243754,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatementBox",
+					"sid": 205026879430375,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 487064657946876,
+					"parameters": {
+						"audio-file": "grunt2",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 954868165378600
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 907675816308972,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ComputerMonitor"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "ComputerScreen",
+					"sid": 292864058156144,
+					"isInverted": true
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "OwnerStatement",
+					"sid": 140777406526608,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "ComputerScreen",
+					"sid": 541418897927858,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 370285598132894,
+					"parameters": {
+						"audio-file": "keyboard_press",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 343050969714490,
+					"parameters": {
+						"audio-file": "keyboard_press",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 879016303676340
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 996635931549960,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ComputerScreen"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "ComputerScreen",
+					"sid": 481130424043272
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "ComputerScreen",
+					"sid": 747553422387229,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 136918547902023,
+					"parameters": {
+						"audio-file": "keyboard_press",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 426060512368817,
+					"parameters": {
+						"audio-file": "keyboard_press",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 577468182487246
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 128031309832880
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "BaseballBat",
+					"sid": 338131996977638,
+					"parameters": {
+						"instance-variable": "collected"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OwnerStatementBox",
+					"sid": 532950331106919,
+					"parameters": {
+						"instance-variable": "read"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "ReturnButton",
+					"sid": 897817492839265,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 572848469452351
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 119718522859173,
+					"parameters": {
+						"object": "ReturnButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "ReturnButton",
+					"sid": 624412666668326,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 429355346627428
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 214699010589257,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ReturnButton"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "ReturnButton",
+					"sid": 264021440872711
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 531343474503891,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 327184327128903,
+					"parameters": {
+						"audio-file": "next_level",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "ReturnButton",
+					"sid": 296074907718087,
+					"parameters": {
+						"instance-variable": "L1Complete",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "ReturnButton",
+					"sid": 278562207754494,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 882060356654545
+		}
+	],
+	"sid": 954068646189001
+}

@@ -1,0 +1,75 @@
+{
+	"name": "Coffee",
+	"plugin-id": "Sprite",
+	"sid": 892673976713989,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 551,
+						"height": 547,
+						"originX": 1.176043557168784,
+						"originY": -1.230347349177331,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 182341,
+						"collisionPoly": {
+							"points": [
+								0.10571687840290384,
+								0.026708180987202925,
+								1,
+								0,
+								1,
+								1,
+								0.1491039019963702,
+								0.9923446069469835
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 664,
+						"height": 526,
+						"originX": 1.0466867469879517,
+						"originY": -1.3193916349809887,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2812153,
+						"collisionPoly": {
+							"points": [
+								0.18368787650602406,
+								0.03531962927756654,
+								0.8602221385542167,
+								0,
+								0.8679875753012049,
+								0.984731463878327,
+								0.26306005271084315,
+								0.980483602661597
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 273835328475558,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

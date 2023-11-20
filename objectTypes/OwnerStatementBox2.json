@@ -1,0 +1,72 @@
+{
+	"name": "OwnerStatementBox2",
+	"plugin-id": "Sprite",
+	"sid": 964536832147594,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "read",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 482966664574563
+		},
+		{
+			"name": "readLine1",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 175556272365579
+		},
+		{
+			"name": "readLine2",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 598492295453451
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 5500,
+						"height": 3979,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5303730,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.045454545454545456,
+								0,
+								0.045454545454545456,
+								0.06282985674792661,
+								0,
+								0.06282985674792661
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 855955162555181,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

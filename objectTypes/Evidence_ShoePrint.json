@@ -1,0 +1,50 @@
+{
+	"name": "Evidence_ShoePrint",
+	"plugin-id": "Sprite",
+	"sid": 918107499429784,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 268,
+						"height": 335,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8717119,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.9328358208955224,
+								0,
+								0.9328358208955224,
+								0.746268656716418,
+								0,
+								0.746268656716418
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 817000891089562,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

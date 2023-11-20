@@ -1,0 +1,95 @@
+{
+	"name": "ShoePrint",
+	"plugin-id": "Sprite",
+	"sid": 802517474157187,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "collected",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 749245179560980
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 340,
+						"height": 340,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 679671,
+						"collisionPoly": {
+							"points": [
+								0.18081341911764706,
+								0.01277573529411765,
+								0.43835018382352975,
+								0.014636948529411765,
+								0.8580652573529405,
+								0.39186580882352956,
+								0.7972541360294116,
+								0.9856502757352941,
+								0.5491727941176463,
+								0.9905101102941172,
+								0.23272058823529435,
+								0.695611213235294,
+								0.16420036764705873,
+								0.30346966911764717
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 340,
+						"height": 340,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7664009,
+						"collisionPoly": {
+							"points": [
+								0.20861672794117658,
+								0.010822610294117631,
+								0.4180147058823532,
+								0.010431985294117646,
+								0.8382352941176462,
+								0.32251838235294156,
+								0.8467141544117643,
+								0.9795036764705883,
+								0.5651884191176466,
+								0.9747931985294116,
+								0.2388556985294117,
+								0.6897518382352941,
+								0.12130055147058848,
+								0.32575827205882363
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 347951109500655,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

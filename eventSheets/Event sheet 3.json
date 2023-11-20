@@ -1,0 +1,529 @@
+{
+	"name": "Event sheet 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 881904655236785,
+					"parameters": {
+						"object": "StoreOwner2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "StoreOwner2",
+					"sid": 809988112786707,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 622017598544589
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 884079605860649,
+					"parameters": {
+						"object": "GoldBar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "GoldBar",
+					"sid": 475578836356971,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 409848379754759
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 223951746975790,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "GoldBar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "GoldBar",
+					"sid": 403878446148323
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 319624969635573,
+					"parameters": {
+						"audio-file": "goldBar",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 965732662613574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 302657740585183,
+					"parameters": {
+						"object": "ReturnButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "ReturnButton",
+					"sid": 681033908952335,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 561749583340065
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 410067101363109,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ReturnButton"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "ReturnButton",
+					"sid": 828764583445618
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 784438189856915,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 964695812574267,
+					"parameters": {
+						"audio-file": "next_level",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "ReturnButton",
+					"sid": 924072692308128,
+					"parameters": {
+						"instance-variable": "L2Complete",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "ReturnButton",
+					"sid": 760052779185526,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 946937030702903
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 790537814525568,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OwnerStatement2"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "OwnerStatement2",
+					"sid": 924132686359070
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 294407063299914,
+					"parameters": {
+						"instance-variable": "readLine2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatement2",
+					"sid": 717449328536264,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 395687246493947,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 406204219493517,
+					"parameters": {
+						"instance-variable": "read",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 162085892101541,
+					"parameters": {
+						"instance-variable": "readLine1",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 870940585436401,
+					"parameters": {
+						"instance-variable": "readLine2",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "StoreOwner2",
+					"sid": 717867678543620,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 873566421288263,
+					"parameters": {
+						"audio-file": "old_grunt2",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 329312834001267
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 685152278965079,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "OwnerStatement2"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "OwnerStatement2",
+					"sid": 547540744097074
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 507641606450557,
+					"parameters": {
+						"instance-variable": "readLine1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "OwnerStatement2",
+					"sid": 640449544980123,
+					"parameters": {
+						"text": "\"I may be able to find out who sold me that golden cuff bracelet.... This is my copy of the receipt that includes their name. Here you go. It may be helpful. \""
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 601837491562016,
+					"parameters": {
+						"instance-variable": "readLine2",
+						"value": "true"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 157982550379315,
+					"parameters": {
+						"audio-file": "old_grunt",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 598676709544783
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 824046762445728,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "StoreOwner2"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "StoreOwner2",
+					"sid": 256462533720398
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "OwnerStatement2",
+					"sid": 432715593725169,
+					"parameters": {
+						"text": "\"Some jerk busted in this morning and didn't even take the gold bars on display. It seems like the only thing missing is a golden cuff bracelet that someone traded in for cash a few weeks ago. \""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 742768731731884,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "OwnerStatement2",
+					"sid": 815854459750717,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 394324143520821,
+					"parameters": {
+						"instance-variable": "readLine1",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "StoreOwner2",
+					"sid": 729760536856684,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 832602722986263,
+					"parameters": {
+						"audio-file": "old_grunt",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 972127678219194
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 582616394961411
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "OwnerStatementBox2",
+					"sid": 751549608387681,
+					"parameters": {
+						"instance-variable": "read"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ShoePrint",
+					"sid": 738054679147544,
+					"parameters": {
+						"instance-variable": "collected"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "ReturnButton",
+					"sid": 339038017089294,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 493328626352372
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 778100370147652,
+					"parameters": {
+						"object": "ShoePrint"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ShoePrint",
+					"sid": 290079173613361,
+					"parameters": {
+						"instance-variable": "collected"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "ShoePrint",
+					"sid": 140556397061082,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 510984421696723
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 733512612363882,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "ShoePrint"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "ShoePrint",
+					"sid": 487793926821724,
+					"parameters": {
+						"instance-variable": "collected"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "EvidenceMarker",
+					"sid": 351970390342473,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "ShoePrint",
+					"sid": 827612526854375,
+					"parameters": {
+						"instance-variable": "collected",
+						"value": "true"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 732780714123761,
+					"parameters": {
+						"audio-file": "plastic_marker",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 457894649209453
+		}
+	],
+	"sid": 795371627082845
+}

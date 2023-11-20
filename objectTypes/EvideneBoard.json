@@ -1,0 +1,60 @@
+{
+	"name": "EvideneBoard",
+	"plugin-id": "Sprite",
+	"sid": 396723115858827,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Evidence1Collected",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 937202955203877
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2558,
+						"height": 1852,
+						"originX": 0.9843627834245504,
+						"originY": 0.6906047516198704,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1303032,
+						"collisionPoly": {
+							"points": [
+								0.21931196247068022,
+								0.038876889848812095,
+								0.983580922595778,
+								0.6906047516198704,
+								0.9824081313526193,
+								0.28293736501079914,
+								0.4827990617670054,
+								0.978401727861771,
+								0.03440187646598905,
+								0.6906047516198704
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 982915237197150,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

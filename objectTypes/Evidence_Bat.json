@@ -1,0 +1,58 @@
+{
+	"name": "Evidence_Bat",
+	"plugin-id": "Sprite",
+	"sid": 963317617449116,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 680,
+						"height": 678,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4845268,
+						"collisionPoly": {
+							"points": [
+								0.47352941176470587,
+								0.4749262536873156,
+								0.5,
+								0.45722713864306785,
+								0.6220588235294118,
+								0.37905604719764013,
+								0.638235294117647,
+								0.5,
+								0.5397058823529411,
+								0.5383480825958702,
+								0.5,
+								0.5530973451327433,
+								0.4102941176470588,
+								0.588495575221239,
+								0.43676470588235294,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 583136446963195,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

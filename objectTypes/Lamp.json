@@ -1,0 +1,120 @@
+{
+	"name": "Lamp",
+	"plugin-id": "Sprite",
+	"sid": 321471126045906,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "isOn",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 700171996181724
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1135,
+						"height": 1274,
+						"originX": 2.00352422907489,
+						"originY": -0.01805337519623234,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1094664,
+						"collisionPoly": {
+							"points": [
+								0.2507158590308369,
+								0.01510989010989008,
+								0.9112059471365633,
+								0.014815541601255885,
+								0.7960903083700438,
+								0.9552344976452115,
+								0.1729350220264317,
+								0.9434605572998429
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 918,
+						"height": 1247,
+						"originX": 2.3300653594771243,
+						"originY": -0.02967121090617482,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1566441,
+						"collisionPoly": {
+							"points": [
+								0.13565495642701528,
+								0.0033079390537289494,
+								0.9347086056644878,
+								0.04022153167602246,
+								0.7716843681917213,
+								0.9777465918203688,
+								0.1398420479302832,
+								0.983435244587009
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 621560782092907,
+				"name": "lampOff",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 1135,
+						"height": 1274,
+						"originX": 2.00352422907489,
+						"originY": -0.01805337519623234,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8748056,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 918,
+						"height": 1247,
+						"originX": 2.3300653594771243,
+						"originY": -0.02967121090617482,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8136019,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 181040018062575,
+				"name": "lampOn",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
