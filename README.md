@@ -1,5 +1,6 @@
 # Detective's Dilemma
 Point-and-Click investigative 2D interactive game built in [Construct 3](https://www.construct.net/en).
+This is a project for the CMPM 80K: Foundations of Video Game Design course at UCSC.
 
 Screen Captures:
 ![](https://github.com/aguizaro/Detective-sDilemma/blob/main/Screenshots/lev1.png?raw=true)
